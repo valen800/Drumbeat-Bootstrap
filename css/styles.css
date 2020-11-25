@@ -1,3 +1,4 @@
+/* ESTILOS del menu Login */
 .loginNav a {
     font-size: 16px;
     color: #000;
@@ -7,7 +8,9 @@
 .loginNav a:hover {
     background-color: gray;
 }
+/* ESTILOS del menu Login */
 
+/* ESTILOS del menu principal */
 .mainNav a { 
     font-size: 24px;
     color: #000;
@@ -18,15 +21,12 @@
 .mainNav a:hover {
     background-color: gray;
 }
+/* ESTILOS del menu principal */
 
+/* ESTILOS DE H1,H2,H3,H4 */
 h1 {
     text-align: justify;
     color: #077782;
-}
-
-.finalTitle {
-    text-align: justify;
-    color:  #4ebec9;
 }
 
 h2 {
@@ -38,7 +38,15 @@ h4 {
     color: #077782;
     text-align: justify;
 }
+/* ESTILOS DE H1,H2,H3,H4 */
 
+/* estilos del titulo al lado del Footer */
+.finalTitle {
+    text-align: justify;
+    color:  #4ebec9;
+}
+
+/* Añado redondeo y colores al menu secundario */
 .secondNav a{
     color: #000;
     background-color: #E9E9E9;
@@ -46,6 +54,7 @@ h4 {
     border-top-right-radius: 20px !important;
 }
 
+/* Añado negrita al menu secundario */
 .secondNav a:hover {
     font-weight: bold;
 }
@@ -59,10 +68,24 @@ h4 {
     display: none;
 }
 
+/* Redondeo los bordes de del item de lenguaje */
 .itemLanguage {
     border-radius: 20px;
 }
 
+/* la linea la expando a la anchura de la página */
 hr {
     width: 100%;
 }
+
+/* Rotate cards */
+
+.rotateOne {
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(1deg);
+}
+
+.rotateTwo {
+    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(-1deg);
+}
+
+/* Rotate cards */
