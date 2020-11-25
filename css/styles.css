@@ -1,0 +1,68 @@
+.loginNav a {
+    font-size: 16px;
+    color: #000;
+    border-radius: 5px;
+}
+
+.loginNav a:hover {
+    background-color: gray;
+}
+
+.mainNav a { 
+    font-size: 24px;
+    color: #000;
+    background-color: #E9E9E9;
+    border-radius: 5px;
+}
+
+.mainNav a:hover {
+    background-color: gray;
+}
+
+h1 {
+    text-align: justify;
+    color: #077782;
+}
+
+.finalTitle {
+    text-align: justify;
+    color:  #4ebec9;
+}
+
+h2 {
+    text-align: justify;
+    color:  #4ebec9;
+}
+
+h4 {
+    color: #077782;
+    text-align: justify;
+}
+
+.secondNav a{
+    color: #000;
+    background-color: #E9E9E9;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.secondNav a:hover {
+    font-weight: bold;
+}
+
+/* Para que no se muestre los circulos de radio buttons */
+[data-toggle="buttons-radio"]>.btn>input[type="radio"] {
+    display: none;
+}
+/* Para que no se muestre los cuadrados de checkbox buttons */
+[data-toggle="buttons-checkbox"]>.btn>input[type="checkbox"] {
+    display: none;
+}
+
+.itemLanguage {
+    border-radius: 20px;
+}
+
+hr {
+    width: 100%;
+}
